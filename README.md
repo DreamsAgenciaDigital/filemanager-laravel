@@ -8,12 +8,12 @@ Once you have installed this package, you will have also all dependencies necess
 
 If you have composer installed globally, your need run:
 ```shell
-composer require "dreams/filemanager-laravel"
+composer require "dreams/filemanager"
 ```
 
 Otherwise, you must have a composer.phar file in your base dir of your project to run:
 ```shell
-php composer.phar require "dreams/filemanager-laravel"
+php composer.phar require "dreams/filemanager"
 ```
 
 ## Register Filemanager Provider

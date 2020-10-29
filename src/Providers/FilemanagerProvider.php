@@ -17,7 +17,7 @@ class FilemanagerProvider extends ServiceProvider
      */
     public function boot()
     {
-        //$this->loadViewsFrom(base_path('vendor/dreams/filemanager-laravel/src/Views'), 'filemanager');
+        //$this->loadViewsFrom(base_path('vendor/dreams/filemanager/src/Views'), 'filemanager');
         $this->loadViewsFrom(__DIR__ . '/../Views', 'filemanager');
 
         if(! config('filemanager.middleware_access')) {
@@ -54,7 +54,7 @@ class FilemanagerProvider extends ServiceProvider
             __DIR__ . '/../Config/filemanager.php' => config_path('filemanager.php')
         ]);
 
-        config()->set(['filemanager.base_path' => base_path('vendor/dreams/filemanager-laravel/public/')]);
+        config()->set(['filemanager.base_path' => base_path('vendor/dreams/filemanager/public/')]);
     }
 
     /**

@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [v1.0.2] - fix base_path version
+### Changed
+    - Base_path fix dir
+
 ## [v1.0.1] - fix route cache version
 ### Changed
     - Route fallback change closure to controller
